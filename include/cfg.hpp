@@ -85,3 +85,12 @@ inline std::string FindValue(const char* key, CfgData& data)
         return value;
     }
 }
+
+inline bool DoesKeyExist(const char* key, CfgData& data) noexcept
+{
+    CfgData::const_iterator pos = data.find(key);
+    if (pos == data.end())
+        return false;
+    else
+        return true;
+}
