@@ -23,7 +23,7 @@ Your .cfg file
 ```CFG
     WINDOW_WIDTH=1920
     WINDOW_HEIGHT=1080
-    WINDOW_TITLE=Ural Test Application
+    WINDOW_TITLE=Test Application
     LOG_START=Ural default log
 ```
 Supposed output
